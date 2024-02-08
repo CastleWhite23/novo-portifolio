@@ -1,0 +1,90 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    color: #00F0FF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.apresentacao{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.apresentacao h1{
+   font-size: 76px;
+   font-weight: 300;
+   text-transform: uppercase;
+   color:#00F0FF;
+   margin: 0rem;
+}
+
+.apresentacao p{
+    
+    text-align: center;
+    width: 70%;
+    color:#656565;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 3rem;
+ }
+
+
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+.bg{
+    background-image: url('../../assets/moutain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(5px) brightness(1.2) saturate(1.5) hue-rotate(-12deg);
+    z-index: -1;
+}
+
+.sidebar-itens{
+    border-right: 5px solid #00F0FF;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    
+}
+.sidebar-item{
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .1s all ease-in;
+}
+
+.sidebar-item:hover{
+    color: #00F0FF;
+}
+.active{
+    color: #00F0FF;
+}
