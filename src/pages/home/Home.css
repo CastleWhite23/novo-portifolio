@@ -6,16 +6,7 @@
     height: 100vh;
 }
 
-.logo{
-    position: absolute;
-    color: #00F0FF;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 30px;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-}
+
 
 .apresentacao{
     width: 65%;
@@ -39,7 +30,7 @@
     text-align: center;
     width: 70%;
     color:#656565;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     margin: 3rem;
  }
