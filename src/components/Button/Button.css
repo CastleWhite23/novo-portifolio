@@ -1,13 +1,13 @@
 .btn-contato{
-    width: 265px;
-    height: 73px;
+    width: 245px;
+    height: 63px;
     background-color: #217176;
     border-radius: 10px;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -17,5 +17,26 @@
 }
 
 .btn-contato:hover{
+    opacity: .5;
+}
+
+.btn-contato-nav{
+    width: 145px;
+    height: 43px;
+    background-color: #217176;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+.btn-contato-nav:hover{
     opacity: .5;
 }
