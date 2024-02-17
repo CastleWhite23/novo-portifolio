@@ -1,8 +1,12 @@
+import './Projetos.css'
 
 const Projetos = () => {
     return (
       <>
-            <h1>Trabalhos principais</h1>
+          <div className="projetos">
+              <h1>Trabalhos principais</h1>
+          </div>
+          
       </>
     )
   }
