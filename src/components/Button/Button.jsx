@@ -1,6 +1,6 @@
 import './Button.css'
 
-const Button = ({text, variant}) => {
+const Button = ({text, variant, style}) => {
     return (
         <>
           <div className={`btn-${variant}`}>
