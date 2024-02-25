@@ -17,6 +17,19 @@ header nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 0rem 1rem;
 }
+
+header nav ul li{
+    cursor: pointer;
+   font-weight: 600;
+   font-size: 20px;
+   letter-spacing: 3%;
+   color: #217176;
+   transition: .1s all ease-in;
+}
+
+header nav ul li:hover{
+    opacity: .5;
+ }
