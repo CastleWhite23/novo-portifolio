@@ -10,6 +10,7 @@ const Navbar = () => {
                     <ul>
                         <li>Destaques</li>
                         <li>Habilidades</li>
+                        <li>Projetos</li>
                         <li>Sobre mim</li>
                         <li><Button text={'contato'} variant={'contato-nav'} /></li>
                     </ul>
