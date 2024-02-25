@@ -2,16 +2,17 @@
 
 * {
     font-family: 'Sora';
+
 }
-
-
 body{
     margin: 0rem;
-    padding: 0rem;
+    height: 100%;
 }
 :root {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
    
 }
 .logo-home{
@@ -33,3 +34,12 @@ body{
     left: 0;
     padding: 1rem;
 }
+
+.titulo-pagina{
+    font-size: 55px;
+    color: #217176;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-wrap: wrap;
+}
+
