@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card.home{
+    background-color: #D9D9D9;
+    border: 1px solid #217176;
+}
