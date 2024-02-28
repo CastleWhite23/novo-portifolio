@@ -40,3 +40,25 @@
 .btn-contato-nav:hover{
     opacity: .5;
 }
+
+.btn-card{
+    width: 90px;
+    height: 33px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #217176;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+.btn-card:hover{
+    opacity: .5;
+}
+
