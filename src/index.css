@@ -5,14 +5,11 @@
 
 }
 body{
+    max-width: 100%;
     margin: 0rem;
     min-height: 100vh;
 }
-:root {
-    display: flex;
-    justify-content: center;
-   
-}
+
 .logo-home{
     position: absolute;
     color: #00F0FF;
