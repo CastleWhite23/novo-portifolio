@@ -15,7 +15,7 @@ const Sobre = () => {
           <div className="apresentacao">
             <h2> Quem sou eu?</h2>
             <p>
-              Meu nome é Pedro Castelo, tenho 17 anos e sou desenvolvedor de sistemas e programador freelancer. Sou focado no Back-end.
+              Meu nome é Pedro Castelo, tenho 17 anos e sou desenvolvedor de sistemas e programador freelancer.
             </p>
           </div>
           <div className="img">
