@@ -2,7 +2,7 @@
 import './Card.css'
 import { Button } from '../Button/Button'
 
-const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeave, children }) => {
+const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeave, children, bgImage, site, github}) => {
 
     const cardStyle = {
         width: width,
@@ -10,24 +10,37 @@ const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeav
         ...style
     }
 
+    const bgImageStyle = {
+        backgroundImage: `url(${bgImage})`,
+        backgroundPosition: 'center',
+        width: '100%',
+        height: '100%',
+        backgroundSize: 'cover',
+        borderRadius: '8px 8px 0px 0px',
+      }
+
 
 
     return (
         <>
             <div className={`card ${variant}`} style={cardStyle} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                <h2>{titulo}</h2>
+                <div style={bgImage && { ...bgImageStyle}}></div>
 
-                {children}
-
+                
+                <div className="info">
+                    <h2>{titulo}</h2>
+                    {children}
+                
                 {
                     variant != "journey" && (
                         <div className="btns none" >
-                            <Button text={'site'} variant={'card'} />
-                            <Button text={'github'} variant={'card'} />
-                            <Button text={'mais'} variant={'card'} />
+                            <a href={site} target='_blank'><Button text={'site'} variant={'card'} /></a>
+                            <a href={github} target='_blank'><Button text={'github'} variant={'card'} /></a>
+                            {/* <Button text={'mais'} variant={'card'} /> */}
                         </div>
                     )
                 }
+                </div>
                 
             </div>
         </>
