@@ -7,10 +7,17 @@
 }
 
 .card.home{
-    background-color: #d9d9d9;
+    z-index: 1;
+    background-color: #217176;
     /* border: 1px solid #217176; */
     border-radius: 10px;
     margin-left: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 2rem 0;
+    
 }
 
 .card.journey{
@@ -37,10 +44,28 @@
 }
 
 .card.home h2{
-    font-size: 1rem;
-    color:#217176;
+    font-size: 1.5rem;
+    color:#fff;
     text-transform: uppercase;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    text-shadow: 2px 2px 0 #217176, 2px 2px 0 #217176, 2px 2px 0 #217176; 
+
 }
+
+.card.home .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #217176;
+}
+
+.card.home a{
+    text-decoration: none;
+}
+
+
 
 .card .btns{
     display: flex;
