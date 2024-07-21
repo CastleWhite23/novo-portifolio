@@ -1,5 +1,6 @@
 import './Sobre.css'
 import { Card } from '../../components/Card/Card'
+import img from '../../assets/imgs/me.jfif'
 
 
 
@@ -19,7 +20,7 @@ const Sobre = () => {
             </p>
           </div>
           <div className="img">
-            <img src="" alt="" />
+            <img src={img} alt="" />
           </div>
         </div>
 
@@ -65,7 +66,7 @@ const Sobre = () => {
 
             >
               <p>
-              Com tudo que eu estudei e aprendi sobre em relação a programação, começei a colocar tudo em prática e ir procurar empregos e projetos freelancers. E isso mudou minha vida totalmente
+              Com tudo que eu estudei e aprendi sobre em relação a programação, começei a colocar tudo em prática e ir procurar empregos e projetos freelancers.
               </p>
 
             </Card>
