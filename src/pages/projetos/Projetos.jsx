@@ -13,7 +13,7 @@ const Projetos = () => {
 
   return (
     <>
-      <div className="projetos">
+      <div className="projetos" id='destaques'>
         <h1 className='titulo-pagina'>Trabalhos principais</h1>
         <div className="cards-principais">
           <Card
@@ -22,6 +22,7 @@ const Projetos = () => {
             height={'350px'}
             variant={'home'}
             bgImage={cbImg}
+            position={'first'}
             site={'https://cbpatio.com'}
             github={'https://github.com/CastleWhite23/cbpatio_client/'}
           />
@@ -30,6 +31,7 @@ const Projetos = () => {
             width={'380px'}
             height={'350px'}
             variant={'home'}
+            position={'second'}
             bgImage={pokedex}
             site={'https://pokedex-vert-seven.vercel.app'}
             github={'https://github.com/CastleWhite23/cbpatio_client/'}
@@ -40,6 +42,7 @@ const Projetos = () => {
             titulo={'TodoList'}
             width={'380px'}
             height={'350px'}
+            position={'third'}
             variant={'home'}
             site={'https://todo-list-react-lake.vercel.app'}
             bgImage={todo}

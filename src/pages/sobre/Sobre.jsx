@@ -11,7 +11,7 @@ const Sobre = () => {
 
   return (
     <>
-      <div className="sobre">
+      <div className="sobre" id='sobre'>
         <div className="quem">
           <div className="apresentacao">
             <h2> Quem sou eu?</h2>

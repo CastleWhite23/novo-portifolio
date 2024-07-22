@@ -8,10 +8,10 @@ const Navbar = () => {
                 <div className="logo">whiteCastle</div>
                 <nav>
                     <ul>
-                        <li>Destaques</li>
-                        <li>Sobre mim</li>
-                        <li>Projetos</li>
-                        <li>Habilidades</li>
+                        <a href="#destaques"><li>Destaques</li></a>
+                        <a href="#sobre"><li>Sobre Mim</li></a>
+                        <a href="#"><li>Projetos</li></a>
+                        <a href="#"><li>Habilidades</li></a>
                         <li><Button text={'contato'} variant={'contato-nav'} /></li>
                     </ul>
                 </nav>
