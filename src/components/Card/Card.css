@@ -17,9 +17,33 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0 0 2rem 0;
+    transition: all .1s ease-in;
+    box-shadow: 5px 10px 30px #1d6e74;
     
 }
+.card.home.first{
+    animation: moveUpAndDown 4s ease-in-out infinite;
+}
+.card.home.second{
+    animation: moveUpAndDown 3s ease-in-out infinite;
+}
 
+.card.home.third{
+    animation: moveUpAndDown 4s ease-in-out infinite;
+}
+
+
+@keyframes moveUpAndDown {
+  0% {
+    bottom: -20px; /* Start position */
+  }
+  50% {
+    bottom: 30px; /* Mid position (move to the top) */
+  }
+  100% {
+    bottom: -20px; /* End position (return to start) */
+  }
+}
 .card.journey{
     background-color: #f1f1f1;
     display: flex;

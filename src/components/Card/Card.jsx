@@ -2,7 +2,7 @@
 import './Card.css'
 import { Button } from '../Button/Button'
 
-const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeave, children, bgImage, site, github}) => {
+const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeave, children, bgImage, site, github, position}) => {
 
     const cardStyle = {
         width: width,
@@ -23,7 +23,7 @@ const Card = ({ width, height, variant, titulo, style, onMouseEnter, onMouseLeav
 
     return (
         <>
-            <div className={`card ${variant}`} style={cardStyle} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <div className={`card ${variant} ${position}`} style={cardStyle} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 <div style={bgImage && { ...bgImageStyle}}></div>
 
                 
