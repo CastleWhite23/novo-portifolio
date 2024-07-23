@@ -22,14 +22,14 @@
     
 }
 .card.home.first{
-    animation: moveUpAndDown 4s ease-in-out infinite;
+    animation: moveUpAndDown 3s ease-in-out infinite;
 }
 .card.home.second{
-    animation: moveUpAndDown 3s ease-in-out infinite;
+    animation: moveUpAndDown 4s ease-in-out infinite;
 }
 
 .card.home.third{
-    animation: moveUpAndDown 4s ease-in-out infinite;
+    animation: moveUpAndDown 3s ease-in-out infinite;
 }
 
 
@@ -85,7 +85,7 @@
     background-color: #217176;
 }
 
-.card.home a{
+.card a{
     text-decoration: none;
 }
 
@@ -97,3 +97,31 @@
     gap: 1rem;
 }
 
+.card.all{
+    height: 500px;
+    width: 200px;
+    background-color: #d9d9d9;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 20px #404040;
+}
+
+.card.all h2{
+    font-size: 1.5rem;
+    color:#217176;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+
+
+}
+
+.card.all .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
