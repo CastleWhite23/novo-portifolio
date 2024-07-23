@@ -16,28 +16,31 @@ const Projetos = () => {
       <div className="projetos" id='destaques'>
         <h1 className='titulo-pagina'>Trabalhos principais</h1>
         <div className="cards-principais">
+
+
+          <Card
+            titulo={'Pokedex'}
+            width={'380px'}
+            height={'350px'}
+            variant={'home'}
+            position={'first'}
+            bgImage={pokedex}
+            site={'https://pokedex-vert-seven.vercel.app'}
+            github={'https://github.com/CastleWhite23/cbpatio_client/'}
+          />
           <Card
             titulo={'CBPATIO'}
             width={'380px'}
             height={'350px'}
             variant={'home'}
             bgImage={cbImg}
-            position={'first'}
-            site={'https://cbpatio.com'}
-            github={'https://github.com/CastleWhite23/cbpatio_client/'}
-          />
-          <Card
-            titulo={'Pokedex'}
-            width={'380px'}
-            height={'350px'}
-            variant={'home'}
             position={'second'}
-            bgImage={pokedex}
-            site={'https://pokedex-vert-seven.vercel.app'}
+            site={'https://cbpatio.com'}
             github={'https://github.com/CastleWhite23/cbpatio_client/'}
             style={{
               marginTop: '-100px'
             }} />
+
           <Card
             titulo={'TodoList'}
             width={'380px'}
