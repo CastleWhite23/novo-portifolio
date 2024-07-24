@@ -10,8 +10,8 @@ const Navbar = () => {
                     <ul>
                         <a href="#destaques"><li>Destaques</li></a>
                         <a href="#sobre"><li>Sobre Mim</li></a>
-                        <a href="#"><li>Projetos</li></a>
-                        <a href="#"><li>Habilidades</li></a>
+                        <a href="#projetos"><li>Projetos</li></a>
+                        {/* <a href="#"><li>Habilidades</li></a> */}
                         <li><Button text={'contato'} variant={'contato-nav'} /></li>
                     </ul>
                 </nav>
