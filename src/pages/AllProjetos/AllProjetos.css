@@ -15,10 +15,33 @@
     color: #217176;
 }
 
-.all-projetos .projetos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 3rem;
-    row-gap: 3rem;
+.all-projetos .projetos {
+    display: grid;
+    grid-template-areas: 
+        "projeto-5 projeto-5 projeto-5"
+        "projeto-1 projeto-2 projeto-3"
+        "projeto-1 projeto-4 projeto-4";
+    width: 100%;
+    height: 1000px;
+    gap: 2rem;
+}
+
+.all-projetos .projetos .projeto-1 {
+    grid-area: projeto-1;
+}
+
+.all-projetos .projetos .projeto-2 {
+    grid-area: projeto-2;
+}
+
+.all-projetos .projetos .projeto-3 {
+    grid-area: projeto-3;
+}
+
+.all-projetos .projetos .projeto-4 {
+    grid-area: projeto-4;
+}
+
+.all-projetos .projetos .projeto-5 {
+    grid-area: projeto-5;
 }
