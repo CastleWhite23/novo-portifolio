@@ -29,8 +29,7 @@ const Sobre = () => {
           <div className="journeyCards">
 
             <Card
-              width={"244px"}
-              height={"190px"}
+
               variant={"journey"}
               titulo={"13 anos..."}
               style={{
@@ -43,8 +42,8 @@ const Sobre = () => {
 
             </Card>
             <Card
-              width={"244px"}
-              height={"190px"}
+  
+
               variant={"journey"}
               titulo={"ETEC FP"}
               style={{
@@ -57,8 +56,7 @@ const Sobre = () => {
 
             </Card>
             <Card
-              width={"244px"}
-              height={"190px"}
+
               variant={"journey"}
               titulo={"HOJE EM DIA..."}
               style={{
