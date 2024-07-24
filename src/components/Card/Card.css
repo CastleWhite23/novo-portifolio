@@ -53,7 +53,7 @@
     border-radius: 30%;
 
     margin-left: 2rem;
-    padding-bottom: 4rem;
+    height: 100%;
 }
 
 .card.journey h2{
@@ -62,6 +62,7 @@
 }
 
 .card.journey p{
+    width: 250px;
     text-align: center;
     text-wrap: wrap;
     color: #404040;
@@ -98,30 +99,63 @@
 }
 
 .card.all{
-    height: 500px;
-    width: 200px;
     background-color: #d9d9d9;
-    
-    border-radius: 10px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 20px #404040;
+
 }
+
+.card.all .esconder.info {
+    transition: .1s all ease-out;
+    z-index: 1;
+    
+}
+.card.all .info.esconder:hover{
+    backdrop-filter: blur(20px);
+    
+}
+
+/* .card.all .mascara{
+    border-radius: 8px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .1s all ease-in;
+} 
+
+
+ .card.all .mascara:hover{
+    backdrop-filter: blur(20px);
+
+}  */
+
 
 .card.all h2{
     font-size: 1.5rem;
-    color:#217176;
+    color:#fff;
     text-transform: uppercase;
-    border-radius: 2rem;
-    backdrop-filter: blur(10px);
-
-
 }
 
-.card.all .info{
+.card.all .info{ 
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     display: flex;
+    padding: 2rem;
+    border-radius: 8px;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+}
+
+.card.all  .info.esconder .btns {
+    pointer-events: auto; /* Permite interações na .btns */
 }
