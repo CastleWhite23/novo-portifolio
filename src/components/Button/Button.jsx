@@ -3,7 +3,7 @@ import './Button.css'
 const Button = ({text, variant, style}) => {
     return (
         <>
-          <div className={`btn-${variant}`}>
+          <div className={`btn-${variant}`} style={style || {}}>
             {text}
           </div>
         </>
