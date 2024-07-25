@@ -112,13 +112,13 @@
 }
 
 .card.all .esconder.info {
-    transition: .1s all ease-out;
+    transition: .2s all ease-out;
     z-index: 1;
-    
+    display: flex;
 }
+
 .card.all .info.esconder:hover{
     backdrop-filter: blur(20px);
-    
 }
 
 /* .card.all .mascara{
@@ -147,13 +147,13 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     padding: 2rem;
     border-radius: 8px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: .2s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
 
 .card.all  .info.esconder .btns {
