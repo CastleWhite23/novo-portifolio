@@ -3,7 +3,7 @@
     padding: 1rem;
     min-height: 100vh;
     max-width: 100%;
-    display: flex;
+   display: flex;
     gap: 10rem;
     flex-direction: column;
     justify-content: center;
