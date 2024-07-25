@@ -5,6 +5,7 @@ import { PageComponent } from "./pages/PageComponent/PageComponent"
 import { Sobre } from "./pages/sobre/Sobre"
 import { Footer } from "./components/Footer/Footer"
 import { AllProjetos } from "./pages/AllProjetos/AllProjetos"
+import { Contato } from "./pages/Contato/Contato"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Projetos />
         <Sobre />
         <AllProjetos />
+        <Contato />
       </PageComponent>
       <Footer />
       
