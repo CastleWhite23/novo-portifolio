@@ -4,7 +4,7 @@ import { Button } from '../../components/Button/Button'
 const Contato = () => {
     return (
         <>
-            <div className="contato">
+            <div className="contato" id='contato'>
                 <h1>Contato</h1>
                 <div className="content">
                     <div className="links">
