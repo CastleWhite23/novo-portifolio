@@ -20,7 +20,7 @@ const Card = ({ width, height, variant, titulo, style, children, bgImage, site, 
             width: '100%',
             height: '100%',
             backgroundSize: 'cover',
-            
+            borderRadius: '8px',
         }
         :
         bgImageStyle = {
