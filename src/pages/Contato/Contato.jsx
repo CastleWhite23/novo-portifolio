@@ -5,21 +5,26 @@ const Contato = () => {
     return (
         <>
             <div className="contato" id='contato'>
-                <h1>Contato</h1>
+                {/* <h1>Contato</h1> */}
                 <div className="content">
                     <div className="links">
                         <div className="avisos">
-                            <h2>Fale conosco</h2>
-                            <p>Resta alguma dúvida? Preencha os campos a seguir com os seguintes dados que em breve entraremos em contato.</p>
-                            <h2>Ligue <br /> para nós</h2>
-                            <p>+55  (15)99790-6791</p>
-                        </div>
-                        <div className="redes-sociais">
-                            <h3>Redes sociais</h3>
-                            <div className="redes">
-                                <div className="link">a</div>
-                                <div className="link">a</div>
-                                <div className="link">a</div>
+                            <div>
+                                <h2>Fale conosco</h2>
+                                <p>Resta alguma dúvida? Preencha os campos a seguir com os seguintes dados que em breve entraremos em contato.</p>
+                            </div>
+                            <div>
+                                <h2>Ligue <br /> para nós</h2>
+                                <p>+55  (15)99790-6791</p>
+                            </div>
+
+                            <div>
+                                <h2>Redes sociais</h2>
+                                <div className="redes">
+                                    <div className="link">a</div>
+                                    <div className="link">a</div>
+                                    <div className="link">a</div>
+                                </div>
                             </div>
 
                         </div>
