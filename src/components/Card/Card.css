@@ -107,7 +107,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border-radius: 8px;
+    box-shadow: 5px 5px 25px #217176;
 
 }
 
@@ -155,6 +156,7 @@
     align-items: center;
     justify-content: center;
     transition: .3s all ease-in-out;
+    border-radius: 8px;
 }
 
 .card.all  .info.esconder .btns {
