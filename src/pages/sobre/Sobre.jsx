@@ -24,7 +24,7 @@ const Sobre = () => {
           </div>
         </div>
 
-        <div className="jornada">
+        {/* <div className="jornada">
           <h2>Minha jornada</h2>
           <div className="journeyCards">
 
@@ -69,7 +69,7 @@ const Sobre = () => {
 
             </Card>
           </div>
-        </div>
+        </div> */}
       </div>
 
 
